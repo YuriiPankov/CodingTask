@@ -24,7 +24,7 @@ struct ContentView: View {
                     Text("Verfügbar")
                 }
             
-            ProductsListView(products: productsInfo.products, header: productsInfo.header)
+            ProductsListView(products: favouriteProducts, header: productsInfo.header)
                 .tabItem {
                     Text("Vorgemerkt")
                 }
@@ -55,11 +55,11 @@ private extension ContentView {
         }
     }
     
-//    var favouriteProducts: [Product] {
-//        productsInfo.products.filter { product in
-//            product.favorite
-//        }
-//    }
+    var favouriteProducts: [Product] {
+        productsInfo.products.filter { product in
+            UserDefaultsManager.shared.savedSymbols.contains(product.id)
+        }
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {

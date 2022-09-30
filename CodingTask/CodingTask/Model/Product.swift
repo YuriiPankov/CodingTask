@@ -20,5 +20,4 @@ struct Product: Decodable, Identifiable {
     let longDescription: String
     let rating: Float
     let price: Price
-//    var favorite: Bool = false
 }

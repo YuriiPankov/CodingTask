@@ -29,6 +29,7 @@
 		5A43708528E717F2006EFC8D /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A43708428E717F2006EFC8D /* ProductsListView.swift */; };
 		5A43708728E71BE2006EFC8D /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A43708628E71BE2006EFC8D /* ProductDetailView.swift */; };
 		5A43708928E720AD006EFC8D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A43708828E720AD006EFC8D /* API.swift */; };
+		5A43708C28E72A16006EFC8D /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A43708B28E72A16006EFC8D /* UserDefaultsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		5A43708628E71BE2006EFC8D /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		5A43708828E720AD006EFC8D /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		5A43708A28E723EC006EFC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5A43708B28E72A16006EFC8D /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				5A43706D28E6EA5E006EFC8D /* Format.swift */,
 				5A43707828E6FE24006EFC8D /* AssetExctractor.swift */,
+				5A43708B28E72A16006EFC8D /* UserDefaultsManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				5A43708928E720AD006EFC8D /* API.swift in Sources */,
 				5A43707728E6F009006EFC8D /* ProductsInfo.swift in Sources */,
 				5A43704C28E6DFF3006EFC8D /* CodingTaskApp.swift in Sources */,
+				5A43708C28E72A16006EFC8D /* UserDefaultsManager.swift in Sources */,
 				5A43705B28E6E0F4006EFC8D /* Price.swift in Sources */,
 				5A43707328E6EB4C006EFC8D /* NonavailableProductView.swift in Sources */,
 				5A43708528E717F2006EFC8D /* ProductsListView.swift in Sources */,

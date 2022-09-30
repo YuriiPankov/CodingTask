@@ -68,7 +68,7 @@ struct ProductDetailView: View {
             .padding()
             
             Button {
-                // TODO: add action
+                UserDefaultsManager.shared.set(symbol: product.id)
             } label: {
                 Text("Vormerken")
             }
